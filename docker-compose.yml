@@ -1,0 +1,22 @@
+services:
+  snapfleet:
+    build: .
+    ports:
+      - "5322:5322"
+    environment:
+      - PORT=5322
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD:-admin}
+      - DB_PATH=/app/data/snapfleet.db
+      - SHOTS_DIR=/app/data/shots
+      - DEFAULT_TTL_SECONDS=${DEFAULT_TTL_SECONDS:-86400}
+      - MAX_CONCURRENT=${MAX_CONCURRENT:-2}
+      - ALLOW_PRIVATE=${ALLOW_PRIVATE:-true}
+      - PUPPETEER_ARGS=--no-sandbox
+    volumes:
+      - snapfleet-data:/app/data
+    restart: unless-stopped
+    # Chromium is happier with a bigger /dev/shm
+    shm_size: "1gb"
+
+volumes:
+  snapfleet-data:
