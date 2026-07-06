@@ -52,6 +52,9 @@
     },
     "directories": {
       "output": "release"
-    }
+    },
+    "asarUnpack": [
+      "vendor/**"
+    ]
   }
 }
