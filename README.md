@@ -71,7 +71,7 @@ Node 20+ · Express · Puppeteer · better-sqlite3 · React (Vite) · Tailwind C
 
 Don't want to touch a terminal? Grab the packaged installer (Windows, one click, auto-updates):
 
-**→ [https://whop.com/onetime-suite](https://whop.com/onetime-suite)**
+**→ [https://whop.com/benjisaiempire/snapfleet](https://whop.com/benjisaiempire/snapfleet)**
 
 Pay once. Own it forever. No subscription.
 
