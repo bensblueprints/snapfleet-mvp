@@ -1,5 +1,9 @@
 # 📸 Snapfleet — Self-hosted Screenshot API
 
+## Demo
+
+VIDEO-PLACEHOLDER
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-8b5cf6.svg)](LICENSE)
 
 **Unlimited screenshots. Your server. Pay once.**
